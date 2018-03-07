@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B102DA9204EEC5300A4D84B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DA8204EEC5300A4D84B /* Accelerate.framework */; };
+		9B102DAB204EEC5A00A4D84B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DAA204EEC5A00A4D84B /* AssetsLibrary.framework */; };
+		9B102DAD204EEC6400A4D84B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DAC204EEC6300A4D84B /* AVFoundation.framework */; };
+		9B102DAF204EEC6D00A4D84B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DAE204EEC6C00A4D84B /* CoreGraphics.framework */; };
+		9B102DB1204EEC7400A4D84B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DB0204EEC7400A4D84B /* CoreImage.framework */; };
+		9B102DB3204EEC7B00A4D84B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DB2204EEC7B00A4D84B /* CoreMedia.framework */; };
+		9B102DB5204EEC8200A4D84B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DB4204EEC8200A4D84B /* CoreVideo.framework */; };
+		9B102DB7204EEC9600A4D84B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DB6204EEC9600A4D84B /* QuartzCore.framework */; };
+		9B102DB9204EEC9D00A4D84B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DB8204EEC9D00A4D84B /* UIKit.framework */; };
+		9B102DBB204EECA500A4D84B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B102DBA204EECA400A4D84B /* Foundation.framework */; };
 		9B52EC74204684BA006FE914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52EC73204684BA006FE914 /* AppDelegate.swift */; };
 		9B52EC76204684BA006FE914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52EC75204684BA006FE914 /* ViewController.swift */; };
 		9B52EC79204684BA006FE914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B52EC77204684BA006FE914 /* Main.storyboard */; };
@@ -14,6 +24,8 @@
 		9B52EC7E204684BA006FE914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B52EC7C204684BA006FE914 /* LaunchScreen.storyboard */; };
 		9B52EC89204684BB006FE914 /* TestSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52EC88204684BB006FE914 /* TestSceneTests.swift */; };
 		9B52EC94204684BB006FE914 /* TestSceneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52EC93204684BB006FE914 /* TestSceneUITests.swift */; };
+		9B52ECA220468BF5006FE914 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B52ECA120468BF5006FE914 /* opencv2.framework */; };
+		9B52ECA620468C30006FE914 /* opencvWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9B52ECA520468C30006FE914 /* opencvWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B102DA8204EEC5300A4D84B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9B102DAA204EEC5A00A4D84B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9B102DAC204EEC6300A4D84B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B102DAE204EEC6C00A4D84B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B102DB0204EEC7400A4D84B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9B102DB2204EEC7B00A4D84B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9B102DB4204EEC8200A4D84B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9B102DB6204EEC9600A4D84B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B102DB8204EEC9D00A4D84B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B102DBA204EECA400A4D84B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B52EC70204684BA006FE914 /* TestScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52EC73204684BA006FE914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B52EC75204684BA006FE914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,10 @@
 		9B52EC8F204684BB006FE914 /* TestSceneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSceneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B52EC93204684BB006FE914 /* TestSceneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSceneUITests.swift; sourceTree = "<group>"; };
 		9B52EC95204684BB006FE914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B52ECA120468BF5006FE914 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		9B52ECA320468C2F006FE914 /* TestScene-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestScene-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B52ECA420468C30006FE914 /* opencvWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opencvWrapper.h; sourceTree = "<group>"; };
+		9B52ECA520468C30006FE914 /* opencvWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = opencvWrapper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B102DBB204EECA500A4D84B /* Foundation.framework in Frameworks */,
+				9B102DB9204EEC9D00A4D84B /* UIKit.framework in Frameworks */,
+				9B102DB7204EEC9600A4D84B /* QuartzCore.framework in Frameworks */,
+				9B102DB5204EEC8200A4D84B /* CoreVideo.framework in Frameworks */,
+				9B102DB3204EEC7B00A4D84B /* CoreMedia.framework in Frameworks */,
+				9B102DB1204EEC7400A4D84B /* CoreImage.framework in Frameworks */,
+				9B102DAF204EEC6D00A4D84B /* CoreGraphics.framework in Frameworks */,
+				9B102DAD204EEC6400A4D84B /* AVFoundation.framework in Frameworks */,
+				9B102DAB204EEC5A00A4D84B /* AssetsLibrary.framework in Frameworks */,
+				9B102DA9204EEC5300A4D84B /* Accelerate.framework in Frameworks */,
+				9B52ECA220468BF5006FE914 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +111,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B102DA7204EEC5300A4D84B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B102DBA204EECA400A4D84B /* Foundation.framework */,
+				9B102DB8204EEC9D00A4D84B /* UIKit.framework */,
+				9B102DB6204EEC9600A4D84B /* QuartzCore.framework */,
+				9B102DB4204EEC8200A4D84B /* CoreVideo.framework */,
+				9B102DB2204EEC7B00A4D84B /* CoreMedia.framework */,
+				9B102DB0204EEC7400A4D84B /* CoreImage.framework */,
+				9B102DAE204EEC6C00A4D84B /* CoreGraphics.framework */,
+				9B102DAC204EEC6300A4D84B /* AVFoundation.framework */,
+				9B102DAA204EEC5A00A4D84B /* AssetsLibrary.framework */,
+				9B102DA8204EEC5300A4D84B /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B52EC67204684BA006FE914 = {
 			isa = PBXGroup;
 			children = (
+				9B52ECA120468BF5006FE914 /* opencv2.framework */,
 				9B52EC72204684BA006FE914 /* TestScene */,
 				9B52EC87204684BB006FE914 /* TestSceneTests */,
 				9B52EC92204684BB006FE914 /* TestSceneUITests */,
 				9B52EC71204684BA006FE914 /* Products */,
+				9B102DA7204EEC5300A4D84B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +155,13 @@
 			children = (
 				9B52EC73204684BA006FE914 /* AppDelegate.swift */,
 				9B52EC75204684BA006FE914 /* ViewController.swift */,
+				9B52ECA420468C30006FE914 /* opencvWrapper.h */,
+				9B52ECA520468C30006FE914 /* opencvWrapper.mm */,
 				9B52EC77204684BA006FE914 /* Main.storyboard */,
 				9B52EC7A204684BA006FE914 /* Assets.xcassets */,
 				9B52EC7C204684BA006FE914 /* LaunchScreen.storyboard */,
 				9B52EC7F204684BA006FE914 /* Info.plist */,
+				9B52ECA320468C2F006FE914 /* TestScene-Bridging-Header.h */,
 			);
 			path = TestScene;
 			sourceTree = "<group>";
@@ -193,6 +252,7 @@
 				TargetAttributes = {
 					9B52EC6F204684BA006FE914 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					9B52EC83204684BB006FE914 = {
@@ -259,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B52ECA620468C30006FE914 /* opencvWrapper.mm in Sources */,
 				9B52EC76204684BA006FE914 /* ViewController.swift in Sources */,
 				9B52EC74204684BA006FE914 /* AppDelegate.swift in Sources */,
 			);
@@ -426,11 +487,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VNQMXE7Q2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestScene/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TestScene.TestScene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestScene/TestScene-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +510,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VNQMXE7Q2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestScene/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TestScene.TestScene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestScene/TestScene-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
