@@ -13,4 +13,5 @@
 //(返り値の型 *)関数名:(引数の型 *)引数名;
 -(void)createCameraWithParentView:(UIImageView*)parentView;
 -(void)start;
+-(void)SetMetalImage:(UIImage*)src;
 @end

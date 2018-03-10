@@ -16,11 +16,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var image : UIImageView!
     
     let opencv = opencvWrapper()
+    let metal_src = UIImage(named : "metal.jpg");
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        opencv.setMetalImage(metal_src);
+
         opencv.createCamera(withParentView: image)
     }
 
